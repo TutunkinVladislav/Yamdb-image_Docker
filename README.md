@@ -18,7 +18,6 @@ POSTGRES_USER='postgres' # логин для подключения к базе 
 POSTGRES_PASSWORD='postgres' # пароль для подключения к БД
 DB_HOST='db' # название сервиса (контейнера)
 DB_PORT='5432' # порт для подключения к БД
-SECRET_KEY='...' # секретный ключ Django-проекта
 ```
 
 ### Как запустить проект:
@@ -56,4 +55,4 @@ docker-compose down -v
 ```
 
 ### Автор проекта:
-Владислав Тутункин (`https://github.com/TutunkinVladislav`)
+[Владислав Тутункин](`https://github.com/TutunkinVladislav`)
